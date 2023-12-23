@@ -9,6 +9,43 @@
 <script type="text/javascript" src="js/cuf_run.js"></script>
 <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="js/radius.js"></script>
+<link rel="stylesheet" href="color.css"/>
+<link rel="icon" href="/images/valogo.jpg"/>
+<style>
+  a img{
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover img{
+    transform: scale(1.1);
+  }
+  .bun{
+    position: relative;
+    display: block;
+  }
+  .bun img{
+    transition: all 0.3s ease-in-out;
+  }
+  .bun:hover img{
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  .bun .name{
+    position: absolute;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+    bottom: 0px;
+    left: 50%;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateX(-40%);
+  }
+  .bun:hover .name{
+    bottom:50%;
+    opacity: 1;
+  }
+</style>
 </head>
 <body>
 <!-- START PAGE SOURCE -->
@@ -40,8 +77,8 @@
           <h2><span>Liên Minh Huyền Thoại</span></h2>
           <div class="clr"></div>
           <p>Phát hành năm <a>2009</a> <span>&nbsp;&bull;&nbsp;</span> <a href="https://www.leagueoflegends.com/vi-vn/">Tải ngay</a> </p>
-          <img src="images/championship.png" width="201" height="146" alt="" class="fl" />
-          <p>Liên Minh Huyền Thoại là một trò chơi đấu trường chiến đấu trực tuyến nhiều người chơi (MOBA), trong đó người chơi điều khiển một nhân vật được gọi là "Tướng (Champion)" với góc nhìn từ trên xuống. Tính đến ngày 02 tháng 09 năm 2023, trò chơi đã có tổng cộng 175 vị tướng với các loại kỹ năng và lối chơi khác nhau. Trong suốt một trận đấu, các tướng sẽ tăng cấp bằng cách tích lũy điểm kinh nghiệm (XP) thông qua quá trình tiêu diệt kẻ thù. Ngoài ra, các vật phẩm trong cửa hàng có thể được mua để tăng sức mạnh cho tướng, các vật phẩm này đều được mua bằng vàng (một đơn vị tiền tệ trong trò chơi), người chơi có thể kiếm được vàng trong quá trình chơi bằng cách hạ gục tướng, lính, quái rừng hoặc các công trình phòng thủ của đội đối phương. Trong chế độ chơi chính (bản đồ Summoner's Rift), các vật phẩm được mua thông qua cửa hàng và chỉ có thể mua khi tướng đang ở bệ đá cổ. Mỗi trận đấu trong Liên Minh Huyền Thoại đều có tính duy nhất; cấp độ và vật phẩm sẽ không thể chuyển từ trận đấu này sang trận đấu khác.</p>
+          <img src="images/drx.png" width="201" height="146" alt="" class="fl" />
+          <p>Liên Minh Huyền Thoại là một trò chơi đấu trường chiến đấu trực tuyến nhiều người chơi <k class="haha">(MOBA)</k>, trong đó người chơi điều khiển một nhân vật được gọi là <k class="haha">"Tướng (Champion)"</k> với góc nhìn từ trên xuống. Tính đến ngày 02 tháng 09 năm 2023, trò chơi đã có tổng cộng 175 vị tướng với các loại kỹ năng và lối chơi khác nhau. Trong suốt một trận đấu, các tướng sẽ tăng cấp bằng cách tích lũy điểm kinh nghiệm <k class="haha">(XP)</k> thông qua quá trình tiêu diệt kẻ thù. Ngoài ra, các vật phẩm trong cửa hàng có thể được mua để tăng sức mạnh cho tướng, các vật phẩm này đều được mua bằng vàng <k class="haha">(một đơn vị tiền tệ trong trò chơi)</k>, người chơi có thể kiếm được vàng trong quá trình chơi bằng cách hạ gục tướng, lính, quái rừng hoặc các công trình phòng thủ của đội đối phương. Trong chế độ chơi chính <k class="haha">(bản đồ Summoner's Rift)</k>, các vật phẩm được mua thông qua cửa hàng và chỉ có thể mua khi tướng đang ở bệ đá cổ. Mỗi trận đấu trong Liên Minh Huyền Thoại đều có tính duy nhất; cấp độ và vật phẩm sẽ không thể chuyển từ trận đấu này sang trận đấu khác.</p>
           <p>Tagged: <a>MOBA</a>, <a>PvP</a>, <a>Strategy</a></p>
         </div>
       </div>
@@ -50,7 +87,7 @@
         <div class="gadget">
           <h2><span> </span></h2>
           <h2><span> </span></h2>
-          <a href="project.html"><img src="images/lolwallpaper.jpg" width="370" height="253" style="margin-left: -20%;" alt="" /></a>
+          <a href="https://www.leagueoflegends.com/vi-vn/" class="bun"><img src="images/lolwallpaper.jpg" width="370" height="253" style="margin-left: -20%;" alt="" /><div class="name" style="color:#6699CC">L O L</div></a>
         </div>
       </div>
   </div>
@@ -61,10 +98,10 @@
         <div class="article">
           <h2><span>Valorant</span></h2>
           <div class="clr"></div>
-          <p>Phát hành năm <a href="#">2020</a> <span>&nbsp;&bull;&nbsp;</span> <a href="https://valorant.zing.vn/vi-vn/?utm_source=Google&utm_medium=FPS&utm_campaign=VAL%7C465%7CGG%7CPM%7CPC%7CConversion_UA_FPS&gad_source=1&gclid=CjwKCAiA98WrBhAYEiwA2WvhOg9NXT4euPL45Fbsp0YjCXeQ_cJkj9z3lbFtA-cdlcAzMspuCj__wBoCMA8QAvD_BwE">Tải ngay</a> </p>
+          <p>Phát hành năm <a>2020</a> <span>&nbsp;&bull;&nbsp;</span> <a href="https://valorant.zing.vn/vi-vn/?utm_source=Google&utm_medium=FPS&utm_campaign=VAL%7C465%7CGG%7CPM%7CPC%7CConversion_UA_FPS&gad_source=1&gclid=CjwKCAiA98WrBhAYEiwA2WvhOg9NXT4euPL45Fbsp0YjCXeQ_cJkj9z3lbFtA-cdlcAzMspuCj__wBoCMA8QAvD_BwE">Tải ngay</a> </p>
           <img src="images/valowallpaper2.jpg" width="201" height="146" alt="" class="fl" />
-          <p>Valorant là một game bắn súng chiến thuật online theo đội 5 vs 5 và là game FPS lấy bối cảnh trong một tương lai gần. Người chơi điều khiển các Đặc vụ (Agent) đến từ rất nhiều quốc gia và nền văn hóa trên thế giới với các đặc tính và kỹ năng riêng biệt.</p>
-          <p>Trong chế độ chính (đặt Spike), mỗi đội có năm người chơi sẽ lựa chọn những Đặc vụ có các kỹ năng độc nhất, sao cho phù hợp với bản đồ thi đấu và chiến thuật cho đội. Hai đội được chia làm hai phe (side): phe Tấn Công (Attacker side) hoặc phe Phòng Thủ (Defender side). Người chơi sử dụng tiền tệ có trong mỗi ván để nạp kỹ năng và mua giáp cho bản thân, đồng thời mua và trao đổi vũ khí với đồng đội. Một quả bom hẹn giờ được gọi là Spike dành cho phe Tấn Công, việc họ cần làm là trong vòng 100 giây phải đặt nó ở một trong các khu đặt Spike của bản đồ hoặc tiêu diệt hết phe Phòng Thủ. Nếu phe Tấn Công tiêu diệt hết phe Phòng Thủ hoặc bảo vệ thành công Spike và cho nó phát nổ, phe Tấn Công thắng ván đấu. Nếu phe Phòng Thủ gỡ thành công Spike trong vòng 45 giây sau khi Spike được đặt hoặc sau khi hết 100 giây mà phe Tấn Công chưa đặt Spike nhưng phe Phòng Thủ vẫn còn người, phe Phòng Thủ sẽ thắng ván đấu. Ở ván đấu đầu tiên cả hai bên có 45 giây để chuẩn bị, với các ván sau thì rút lại còn 30 giây và tiếp tục cho đến ván 13 khi hai đội đổi phe.</p>
+          <p>Valorant là một game bắn súng chiến thuật online theo đội 5 vs 5 và là game FPS lấy bối cảnh trong một tương lai gần. Người chơi điều khiển các Đặc vụ <k class="haha">(Agent)</k> đến từ rất nhiều quốc gia và nền văn hóa trên thế giới với các đặc tính và kỹ năng riêng biệt.</p>
+          <p>Trong chế độ chính <k class="haha">(đặt Spike)</k>, mỗi đội có năm người chơi sẽ lựa chọn những Đặc vụ có các kỹ năng độc nhất, sao cho phù hợp với bản đồ thi đấu và chiến thuật cho đội. Hai đội được chia làm hai phe <k class="haha">(side)</k>: phe Tấn Công <k class="haha">(Attacker side)</k> hoặc phe Phòng Thủ <k class="haha">(Defender side)</k>. Người chơi sử dụng tiền tệ có trong mỗi ván để nạp kỹ năng và mua giáp cho bản thân, đồng thời mua và trao đổi vũ khí với đồng đội. Một quả bom hẹn giờ được gọi là Spike dành cho phe Tấn Công, việc họ cần làm là trong vòng 100 giây phải đặt nó ở một trong các khu đặt Spike của bản đồ hoặc tiêu diệt hết phe Phòng Thủ. Nếu phe Tấn Công tiêu diệt hết phe Phòng Thủ hoặc bảo vệ thành công Spike và cho nó phát nổ, phe Tấn Công thắng ván đấu. Nếu phe Phòng Thủ gỡ thành công Spike trong vòng 45 giây sau khi Spike được đặt hoặc sau khi hết 100 giây mà phe Tấn Công chưa đặt Spike nhưng phe Phòng Thủ vẫn còn người, phe Phòng Thủ sẽ thắng ván đấu. Ở ván đấu đầu tiên cả hai bên có 45 giây để chuẩn bị, với các ván sau thì rút lại còn 30 giây và tiếp tục cho đến ván 13 khi hai đội đổi phe.</p>
           <p>Tagged: <a>FPS</a>, <a>Strategy</a>, <a>PvP</a>, <a>Action</a></p>
         </div>
       </div>
@@ -73,7 +110,7 @@
         <div class="gadget">
           <h2><span> </span></h2>
           <h2><span> </span></h2>
-          <a href="project.html"><img src="images/valowallpaper3.webp" width="370" height="300" style="margin-left: -20%;" alt="" /></a>
+          <a href="https://playvalorant.com/vi-vn/" class="bun"><img src="images/valowallpaper3.webp" width="370" height="300" style="margin-left: -20%;" alt="" /><div class="name" style="color:red;">VALORANT</div></a>
         </div>
       </div>
   </div>
@@ -84,14 +121,14 @@
         <div class="article">
           <h2><span>Teamfight Tactics</span></h2>
           <div class="clr"></div>
-          <p>Phát hành năm <a href="#">2019</a> <span>&nbsp;&bull;&nbsp;</span> <a href="https://www.leagueoflegends.com/vi-vn/">Một chế độ thuộc Liên Minh Huyền Thoại</a> </p>
+          <p>Phát hành năm <a>2019</a> <span>&nbsp;&bull;&nbsp;</span> <a href="https://www.leagueoflegends.com/vi-vn/">Một chế độ thuộc Liên Minh Huyền Thoại</a> </p>
           <img src="images/tft1.avif" width="201" height="220" alt="" class="fl" />
-          <p>Trò chơi gồm tám người chơi sử dụng các đơn vị được mua trong cửa hàng để chiến đấu với nhau. Mỗi người chơi đại diện bởi các Linh Thú, khởi điểm với 100 máu (20 đối với Xúc Xắc Điên Cuồng) và sẽ bị tiêu diệt khi máu giảm về 0.</p>
+          <p>Trò chơi gồm tám người chơi sử dụng các đơn vị được mua trong cửa hàng để chiến đấu với nhau. Mỗi người chơi đại diện bởi các Linh Thú, khởi điểm với 100 máu <k class="haha">(20 đối với Xúc Xắc Điên Cuồng)</k> và sẽ bị tiêu diệt khi máu giảm về 0.</p>
           <p>Bàn cờ bao gồm các hình lục giác, nơi người chơi có thể đặt các đơn vị một cách chiến lược vào các hình lục giác ở nửa bàn cờ đồng minh giữa các hiệp đấu.</p>
           <p>Mỗi vòng, một trận chiến nhanh sẽ tự động bắt đầu, với hai người chơi được ghép ngẫu nhiên cho vòng đó, hoặc với "bóng", hoặc với quái vật. Trong các vòng đấu với quái vật, mỗi quái vật bị tiêu diệt rơi ra các Hộp Kho Báu - thứ chứa vàng, đơn vị hoặc vật phẩm mà người chơi có thể sử dụng.</p>
           <p>Khi thua ở mỗi vòng đấu, Linh Thú sẽ bị trừ máu. Lượng máu mất đi do thua vòng được tính toán với sự kết hợp của sát thương đặt mỗi vòng và cách nhiều đơn vị đối thủ vẫn còn sống.</p>
           <p>Trò chơi bao gồm các giai đoạn và vòng. Mỗi giai đoạn bao gồm bảy vòng trừ giai đoạn 1. Giai đoạn 1 bao gồm ba vòng chiến đấu với quái vật.</p>
-          <p>Ở vòng thứ tư của mỗi giai đoạn có một tính năng gọi là "Đi Chợ" (vòng Chọn Chung). Cứ sau một khoảng thời gian, người chơi có quyền chọn đơn vị cùng vật phẩm đi kèm bên trong vòng xoay.</p>
+          <p>Ở vòng thứ tư của mỗi giai đoạn có một tính năng gọi là "Đi Chợ" <k class="haha">(vòng Chọn Chung)</k>. Cứ sau một khoảng thời gian, người chơi có quyền chọn đơn vị cùng vật phẩm đi kèm bên trong vòng xoay.</p>
           <p>Tagged: <a>Strategy</a>, <a>Turn-based</a>, <a>PvP</a>, <a>Auto chess</a></p>
         </div>
       </div>
@@ -100,7 +137,7 @@
         <div class="gadget">
           <h2><span> </span></h2>
           <h2><span> </span></h2>
-          <a href="project.html"><img src="images/tft2.jpg" width="370" height="300" style="margin-left: -20%;" alt="" /></a>
+          <a href="https://teamfighttactics.leagueoflegends.com/vi-vn/" class="bun"><img src="images/tft2.jpg" width="370" height="300" style="margin-left: -20%;" alt="" /><div class="name" style="color:#FF9900">TeamfightTactics</div></a>
         </div>
       </div>
   </div>
@@ -118,13 +155,13 @@
         <a href="project.html"><img src="images/lologo.avif" width="58" height="58" alt="" /></a> <a href="project.html"><img src="images/valogorant.jpg" width="58" height="58" alt="" /></a> <a href="project.html"><img src="images/Wild_Rift_icon.webp" width="58" height="58" alt="" /></a> <a href="project.html"><img src="images/lologo2.webp" width="58" height="58" alt="" /></a> <a href="project.html"><img src="images/valogorant2.png" width="58" height="58" alt="" /></a> <a href="project.html"><img src="images/lol-wild-rift.jpg" width="58" height="58" alt="" /></a> </div>
       <div class="col c2">
         <h2><span>About Company</span></h2>
-        <p>Rito Entertainment. Là một công ty chuyên về phát triển và phát hành trò chơi điện tử đa quốc gia của Hoa Kỳ được thành lập vào năm 2006, trụ sở chính đặt tại Tây Los Angeles, California. Ngoài ra, công ty còn có các văn phòng đại diện khác ở Berlin, Dublin, Hồng Kông, Istanbul, Thành phố México, Moskva, New York, Seoul, St. Louis, Santiago de Chile, São Paulo, Thượng Hải, Singapore, Thành phố Hồ Chí Minh, Băng Cốc, Sydney, Đài Bắc, Tokyo,...</p>
+        <p>Rito Entertainment. là một công ty chuyên về phát triển và phát hành trò chơi điện tử đa quốc gia của Việt Nam được thành lập vào năm 2006, trụ sở chính đặt tại Đ. An Dương Vương, Phường 4, Quận 5, Thành phố Hồ Chí Minh. Ngoài ra, công ty còn có các văn phòng đại diện khác ở Berlin, Dublin, Hồng Kông, Istanbul, Thành phố México, Moskva, New York, Seoul, St. Louis, Santiago de Chile, São Paulo, Thượng Hải, Singapore, Băng Cốc, Sydney, Đài Bắc, Tokyo,...</p>
       </div>
       <div class="col c3">
         <h2><span>Support</span></h2>
         <p>Mọi thắc mắc xin liên hệ:</p>
-        <p><a href="minhtin2203az@gmail.com">support@gmail.com</a></p>
-        <p>0868108053<br />
+        <p>support@gmail.com <br />
+          0868108053<br />
           0835293535 <br />
           Địa Chỉ: 280 Đ. An Dương Vương, Phường 4, Quận 5, Thành phố Hồ Chí Minh 720000, Việt Nam</p>
       </div>
@@ -134,7 +171,7 @@
   <div class="footer">
     <div class="footer_resize">
       <p class="lf">© Năm 2023 bởi Rito Entertainment, Inc. Đã đăng ký bản quyền.</p>
-      <p class="rf">Design by <a href="#">Password-Cracker</a></p>
+      <p class="rf">Design by <a href="https://github.com/im-Hip/BT-cuoi-ky">Password-Cracker</a></p>
       <div class="clr"></div>
     </div>
   </div>
